@@ -1,0 +1,44 @@
+{
+  "start_url": ".",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "name": "The Database",
+  "short_name": "TheDB",
+  "theme_color": "#1849B1",
+  "background_color": "#1849B1",
+  "lang": "en-US",
+  "dir": "auto",
+  "description": "The Database - Jobs Need People",
+  "serviceworker": {
+    "src": "serviceWorker.js",
+    "scope": "/"
+  },
+  "categories": [
+    "jobs",
+    "resume",
+    "employment",
+    "hiring",
+    "job seeking",
+    "gigs",
+    "employers",
+    "hr"
+  ],
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
